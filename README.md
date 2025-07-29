@@ -12,21 +12,19 @@ The model is trained on health-related features such as:
 - Cholesterol
 - And more...
 
-## 📊 Algorithms Used
+## 📊 Algorithm Used
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Naive Bayes
-- Accuracy evaluation using confusion matrix, precision, recall, F1-score
+- Logistic Regression  
+> (Other algorithms like K-Nearest Neighbors and Naive Bayes will be added soon!)
 
 ## 📁 Dataset
 
-The dataset used is from Kaggle:
+The dataset used is from Kaggle:  
 [Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
 
 ## 📈 Results
 
-The model achieved high accuracy and can help in early detection of heart disease risks.
+The model achieved good accuracy and can assist in early detection of heart disease risks.
 
 ## 🛠️ Tools & Libraries
 
@@ -39,8 +37,7 @@ The model achieved high accuracy and can help in early detection of heart diseas
 
 ---
 
-##  Author
+## 👩‍💻 Author
 
 **Maheen Shahid**  
 A machine learning enthusiast — exploring real-world healthcare applications!
-
