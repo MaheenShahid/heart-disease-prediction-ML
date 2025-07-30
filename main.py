@@ -107,15 +107,15 @@ print("Classification Report:\n", classification_report(Y_test, gb_pred))
 
 # ========== Visualizations ==========
 # Correlation Heatmap
-# plt.figure(figsize=(12,8))
-# sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
-# plt.title('Feature Correlation Heatmap')
-# plt.show()
+plt.figure(figsize=(12,8))
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+plt.title('Feature Correlation Heatmap')
+plt.show()
 
-# # Count Plot: Target variable
-# sns.countplot(x='target', data=df)
-# plt.title("Heart Disease Distribution (0 = No, 1 = Yes)")
-# plt.show()
+# Count Plot: Target variable
+sns.countplot(x='target', data=df)
+plt.title("Heart Disease Distribution (0 = No, 1 = Yes)")
+plt.show()
 
 # ========== Model Comparison Chart ==========
 
