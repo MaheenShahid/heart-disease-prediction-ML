@@ -1,30 +1,59 @@
-# Heart Disease Prediction using Machine Learning 🩺💻
+# ❤️ Heart Disease Prediction using Machine Learning
 
-This project uses a machine learning model to predict the presence of heart disease based on patient health data.
+This project predicts heart disease presence using various supervised ML models on patient health data. Target:  
+`0` = No Heart Disease, `1` = Heart Disease
 
-## 🔍 Overview
-
-The model is trained on health-related features such as:
-- Age
-- Sex
-- Chest pain type
-- Blood pressure
-- Cholesterol
-- And more...
-
-## 📊 Algorithm Used
-
-- Logistic Regression  
-> (Other algorithms like K-Nearest Neighbors and Naive Bayes will be added soon!)
+---
 
 ## 📁 Dataset
 
-The dataset used is from Kaggle:  
-[Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
+ The dataset used is from Kaggle:  
+ [Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
 
-## 📈 Results
+- **Target Variable:** `target`
+- **Features:** age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal
 
-The model achieved good accuracy and can assist in early detection of heart disease risks.
+---
+
+## 🧠 Models Used
+
+| Model                | Type                 |
+|----------------------|----------------------|
+| Logistic Regression  | Linear Classifier    |
+| KNN                  | Distance-Based       |
+| Naive Bayes          | Probabilistic        |
+| SVM                  | Margin-Based         |
+| Decision Tree        | Tree-Based           |
+| Random Forest        | Ensemble Trees       |
+| Gradient Boosting    | Boosted Ensemble     |
+
+---
+
+## 📊 Evaluation
+
+Models are evaluated on:
+- Accuracy Score  
+- Confusion Matrix  
+- Classification Report (Precision, Recall, F1)
+
+**Comparison Chart:**  
+A seaborn barplot shows model-wise accuracy for easy visualization.
+
+---
+
+## ✅ Sample Results
+
+| Model              | Accuracy |
+|--------------------|----------|
+| Logistic Regression| 0.86     |
+| KNN                | 0.81     |
+| Naive Bayes        | 0.84     |
+| SVM                | 0.83     |
+| Decision Tree      | 0.77     |
+| Random Forest      | 0.88     |
+| Gradient Boosting  | 0.90     |
+
+---
 
 ## 🛠️ Tools & Libraries
 
